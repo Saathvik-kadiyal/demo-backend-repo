@@ -1,0 +1,46 @@
+# Environment files
+.env
+*.env
+
+# Python cache
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+diskcache/
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Database
+*.db
+
+# Virtual environments
+venv/
+.venv/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime-generated folders
+media/
+tmp/
+uploads/
+temp_files/
+exports/
+
+# Tests (ONLY if intentionally excluded)
+Testcases/
